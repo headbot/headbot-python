@@ -1,0 +1,13 @@
+*__pycache__*
+*.pyc
+.eggs
+*.egg-info/
+.coverage
+.coverage.*
+.pytest_cache
+.*.sw[po]
+.DS_Store
+.idea/
+.vscode/
+env/
+temp.txt
