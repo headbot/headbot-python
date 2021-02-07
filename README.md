@@ -1,6 +1,6 @@
 # Headbot.io Python Client
 
-[![Build Status](https://travis-ci.org/headbot-client/python.svg?branch=master)](https://travis-ci.org/headbot-client/python)
+[![Build Status](https://travis-ci.org/headbot/headbot-python.svg?branch=master)](https://travis-ci.org/headbot/headbot-python)
 [![Build Status](https://img.shields.io/pypi/v/headbot.svg?color=blue)](https://pypi.org/project/headbot/)
 [![pypi supported versions](https://img.shields.io/pypi/pyversions/headbot.svg)](https://pypi.python.org/pypi/headbot)
 
