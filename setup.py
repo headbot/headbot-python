@@ -18,7 +18,7 @@ with open('requirements/test.txt') as f:
 setup(
     name="headbot",
     url="https://github.com/headbot/headbot-python/",
-    version="0.2.0",
+    version="0.2.1",
     description=("python client for the headbot.io API"),
     long_description=long_description,
     long_description_content_type="text/markdown",
