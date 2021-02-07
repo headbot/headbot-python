@@ -1,0 +1,16 @@
+language: python
+python:
+- '3.6'
+install:
+- pip install -r requirements/base.txt
+- pip install -r requirements/test.txt
+script:
+- pytest
+deploy:
+  provider: pypi
+  username: __token__
+  password:
+    secure: n5AUNxgWyFo8jDCYjVA8lr9uqkvman7UDEdTwapXmQkxRAutKm8b18IlEVP6/FLEMb2tQdC84hUmUFrtBHtC8Fm+WzDnjTDoD2PeTMaEmMCoeEkMHtTE5phljrhndm5fDbtLebZOJVuatoOhgs8GQdn/W0pKWBIxPpFNLXWWO1k7p0lYEKSalpCPwv4w1df7RmytiHaeGo5YhvFQav288h/amT0JM4yvDC3zs9s5E/HgbqA5uEkvq2hJbf09oAhEb6hcfFoAB1OnhySJnIkTxkBZ9oud7GPL+gJH9ubud3UBkgWZq8nDZ9C6INi+rTzwSJ00FnA9wxZmOdMCbSm7frPCOEpTsPU0y6IZ9iZjoj9z1/erav0BFyYD4dK+zMlHiGM72+YSj7byDr6EFxTuaNbnZiK9x/snOSpgfmROiFnsjP8aXP5mG7ImZIIdtREMaLU0Fs75RU+NKEo8l+eD0PQ8h6vbc+DWAEqBCrXsmlde1aTk4VCI7D7bGrSxDRiZCPto0XW4rCdTRpT6MXnSdQnt/0+/ef5tsOb03r//EwHbpz3lCIeEPXaSTgYgwo5TN7JvFi8/L8AMc15FgvNx+BQjdg8diysPe4zjpWjabzCZQjtP2dVWNjamM+kZq4ssl5q7/bGSB6PruK60u+pP+plixz2GmivEWMK/hiUVOhY=
+  on:
+    tags: true
+  skip_cleanup: true

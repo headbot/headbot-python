@@ -6,8 +6,11 @@
 .coverage.*
 .pytest_cache
 .*.sw[po]
+dist/
+build/
 .DS_Store
 .idea/
 .vscode/
 env/
+todo.txt
 temp.txt
